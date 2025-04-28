@@ -7,7 +7,7 @@ The application demonstrates key functionalities for handling form submissions, 
 
 **Gender Selection**: Users can select the gender of the student using radio buttons for a more user-friendly experience.
 
-**Data Validation**: Ensures that required fields are filled and that the maximum number of student records is limited to five or we can put anu number as per required.
+**Data Validation**: Ensures that required fields are filled and that the maximum number of student records is limited to five or we can put any number as per required.
 
 **Edit Student Records:** Users can edit an existing student record by selecting the "Edit" button.
 
