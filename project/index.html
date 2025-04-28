@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Student Registration Form</h2>
+  <form id="studentForm">
+    <input type="hidden" id="editIndex" value="-1">
+
+    <label>Student Name:</label>
+    <input type="text" id="name" required>
+
+    <label>Gender:</label>
+    <select id="gender" required>
+      <option value="">Select</option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select>
+
+    <label>Age:</label>
+    <input type="number" id="age" required min="1">
+
+    <label>Address:</label>
+    <textarea id="address" rows="2" required></textarea>
+
+    <label>Course:</label>
+    <select id="course" required>
+      <option value="">Select Course</option>
+      <option>Java</option>
+      <option>C</option>
+      <option>Python</option>
+      <option>JavaScript</option>
+    </select>
+
+    <label>Date of Birth:</label>
+    <input type="date" id="dob" required min="1975-01-01">
+
+    <div class="form-buttons">
+      <button type="submit">Save</button>
+      <button type="button" onclick="clearForm()">Clear</button>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
